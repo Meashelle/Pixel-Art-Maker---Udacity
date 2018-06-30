@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$("#go").click(function(){ // this function is trigger when the "go" button is clicked
+	$("#go").click(function makegrid(){ // this function is trigger when the "go" button is clicked
 		var height = $("#input_grid_height").val(); // retrieve the value
 		var width = $("#input_grid_width").val();
 		var table_content = "<table id='tbl' class='table table-bordered'>";
